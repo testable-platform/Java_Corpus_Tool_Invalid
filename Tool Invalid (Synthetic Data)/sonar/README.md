@@ -53,23 +53,8 @@ What **was** run, in every family: the source compiles with plain `javac --relea
 
 | Family | Host JDK | Result |
 |---|---|---|
-| `java8` | JDK 25 host, `--release 8` | NOT INSTALLED |
-| `java9` | JDK 25 host, `--release 9` | NOT INSTALLED |
-| `java10` | JDK 25 host, `--release 10` | NOT INSTALLED |
-| `java11` | JDK 25 host, `--release 11` | NOT INSTALLED |
-| `java12` | JDK 25 host, `--release 12` | NOT INSTALLED |
-| `java13` | JDK 25 host, `--release 13` | NOT INSTALLED |
-| `java14` | JDK 25 host, `--release 14` | NOT INSTALLED |
-| `java15` | JDK 25 host, `--release 15` | NOT INSTALLED |
-| `java16` | JDK 25 host, `--release 16` | NOT INSTALLED |
-| `java17` | JDK 25 host, `--release 17` | NOT INSTALLED |
-| `java18` | JDK 25 host, `--release 18` | NOT INSTALLED |
-| `java19` | JDK 25 host, `--release 19` | NOT INSTALLED |
-| `java20` | JDK 25 host, `--release 20` | NOT INSTALLED |
-| `java21` | JDK 25 host, `--release 21` | NOT INSTALLED |
-| `java22` | JDK 25 host, `--release 22` | NOT INSTALLED |
-| `java23` | JDK 25 host, `--release 23` | NOT INSTALLED |
 | `java24` | JDK 25 host, `--release 24` | NOT INSTALLED |
-| `java25` | JDK 25 (native) | NOT INSTALLED |
 
 Every family has the same blocker (no server, no scanner), so the column is the same for all 18. Each family's source was compiled with `javac --release N` on a JDK 25 host and its tests pass.
+
+This repo carries only the `java24` family.

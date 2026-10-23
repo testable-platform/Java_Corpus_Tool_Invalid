@@ -39,21 +39,5 @@ For each family N from 8 to 25 the source was compiled with `javac --release N` 
 | Family | Host JDK | Result |
 |---|---|---|
 | `java8` | JDK 25 host, `--release 8` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java9` | JDK 25 host, `--release 9` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java10` | JDK 25 host, `--release 10` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java11` | JDK 25 host, `--release 11` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java12` | JDK 25 host, `--release 12` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java13` | JDK 25 host, `--release 13` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java14` | JDK 25 host, `--release 14` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java15` | JDK 25 host, `--release 15` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java16` | JDK 25 host, `--release 16` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java17` | JDK 25 host, `--release 17` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java18` | JDK 25 host, `--release 18` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java19` | JDK 25 host, `--release 19` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java20` | JDK 25 host, `--release 20` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java21` | JDK 25 host, `--release 21` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java22` | JDK 25 host, `--release 22` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java23` | JDK 25 host, `--release 23` | **FINDING** -- `ORPHAN_DEFINITIONS=5/1` |
-| `java24` | JDK 25 host, `--release 24` | **FINDING** -- ASM 9.7 cannot read class file major version 68 |
-| `java25` | JDK 25 (native) | **FINDING** -- ASM 9.7 cannot read class file major version 69 |
 
+This repo carries only the `java8` family.
